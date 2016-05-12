@@ -1094,6 +1094,7 @@ body {
   line-height: 1.42857143;
   color: blue;
   background-color: #fff;
+  background-image: url("background.JPG");
 }
 input,
 button,
