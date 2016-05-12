@@ -228,12 +228,18 @@ th {
   img {
     max-width: 100% !important;
   }
-  p,
+
   h2,
   h3 {
     orphans: 3;
     widows: 3;
   }
+  
+  p {
+    font-family: Palatino, 'Palatino Linotype', serif;
+    font-size: 14px;
+  }
+
   h2,
   h3 {
     page-break-after: avoid;
