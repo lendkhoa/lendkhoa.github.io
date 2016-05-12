@@ -1096,6 +1096,8 @@ body {
   background-color: #fff;
   background-image: url("background.JPG");
   background-size: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 input,
 button,
