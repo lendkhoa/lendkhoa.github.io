@@ -16,3 +16,8 @@ footer {
 	width: 960px;
 	margin: 0 auto;
 }
+
+.welcome {
+	background-image: url(img/drivingIntoSunset.JPG);
+}
+
