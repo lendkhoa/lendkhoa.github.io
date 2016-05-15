@@ -1,6 +1,6 @@
 body {
-	padding-top: 50px;
-	width: 600px;
+	padding-top: 5px;
+	width: 700px;
 	margin: auto;
 }
 header {
@@ -9,18 +9,36 @@ header {
 	font-size: 14px;
 }
 
+#growthSpace{
+	font-family: "Century Gothic";
+	font-size: 19px;
+
+}
+
 #name {
 	font-family: "Old Standard TT";
 	font-weight: 400;
 	 font-style: italic;
-	 font-size: 46px;
+	 font-size: 70px;
 	 line-height: 30px;
 	 padding-bottom: 30px;
 }
 
-#about {
+#sectionHeader{
 	font-family: "Old Stadard TT";
 	font-weight:200;
 	font-style: italic;
-	font-size: 20px;
+	font-size: 40px;
 }
+.about {
+	background-color: rgba(51,51,51,1);
+	color: rgba(255,255,255,1);
+	padding: 10px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+}
+.projects{
+	padding: 5px;
+
+}
+
