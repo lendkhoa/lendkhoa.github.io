@@ -9,3 +9,7 @@
 	margin: 0 auto;
 	background-image: url(img/drivingIntoSunset.JPG);
 }
+body {
+	width: 700px;
+	margin: auto;
+}
