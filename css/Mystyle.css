@@ -1,0 +1,21 @@
+body {
+	padding-top: 50px;
+	width: 600px;
+	margin: auto;
+}
+
+#name {
+	font-family: "Old Standard TT";
+	font-weight: 400;
+	 font-style: italic;
+	 font-size: 46px;
+	 line-height: 30px;
+	 padding-bottom: 30px;
+}
+
+#about {
+	font-family: "Old Stadard TT";
+	font-weight:200;
+	font-style: italic;
+	font-size: 20px;
+}
