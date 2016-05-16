@@ -1,6 +1,6 @@
 body {
-	padding-top: 5px;
-	width: 700px;
+	padding-top: 70px;
+	width: 800px;
 	margin: auto;
 }
 header {
@@ -21,21 +21,21 @@ header {
 	 font-style: italic;
 	 font-size: 70px;
 	 line-height: 30px;
-	 padding-bottom: 30px;
+	 padding-bottom: 70px;
 }
 
-#sectionHeader{
+.sectionHeader{
 	font-family: "Old Stadard TT";
 	font-weight:200;
 	font-style: italic;
 	font-size: 40px;
 }
-.about {
+.black{
 	background-color: rgba(51,51,51,1);
 	color: rgba(255,255,255,1);
 	padding: 10px;
 	margin-bottom: 0px;
-	padding-top: 0px;
+	padding-top: 1px;
 }
 .projects{
 	padding: 5px;
