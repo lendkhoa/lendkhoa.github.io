@@ -12,13 +12,18 @@
         Welcome to my growth space!
     </title>
 
-    <link href="css/Mystyle.css" rel="stylesheet">
+    <link href="Mystyle.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/1-col-portfolio.css" rel="stylesheet">
 
     <style>
         ul#menu li 
         {
             display: inline;
         }
+        
         .wrapper {
             float: center;
             margin: 5px;
@@ -32,34 +37,63 @@
 </head>
 
 <body>
-<div class="wrapper">
-    <header>
-        <ul id="menu">
-            <li>
-                <a href="#">
-                <img src="img/logo.png", width=72, height=72>
-                
-                <a href="mailto: khoadang.le@outlook.com"><img src="img/mailIcon.png" height="41" width="61" alt="email me" align="right"/></a>
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="img/logo.png", width=92, height=92></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="mailto: khoadang.le@outlook.com"><img src="img/mailIcon.jpg" height="21" width="41" alt="email me" align="right"/></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/khoa-le-1503028a?trk=nav_responsive_tab_profile_pic"><img src ="img/linkedIcon.png" height="21" width="41" alt="email me" align="right"/> </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+</nav>
 
-                <a href="https://www.linkedin.com/in/khoa-le-1503028a?trk=nav_responsive_tab_profile_pic"><img src ="img/linkedIcon.png" height="71" width="101" alt="email me" align="right"/>
-                </a>
-            </li>
-        </ul> 
-    </header>
+<div class="wrapper">
     
     <h1 align="center"> Hello, I'm </h1>
     <p id="name" align="center"> Khoa Le </p>
     
-    <div class="about">
-        <h4 id="sectionHeader">A learner, maker and so much more: </h4>
+    <div class="black">
+        <h4 class="sectionHeader">A learner, maker and so much more: </h4>
         <p id="growthSpace">
             Welcome to my personal growth space:
             I am a freelance front-end developer, and web designer. I spend most of my time coding and learning new technology. I love designing + building beautiful websites and applications. I believe 
         </p>
     </div>
 
+    <!-- PROJECTS SECTION -->
     <div class="projects">
-        <h4 id="sectionHeader"> My projects <small>These projects help shape who I am and push me moving forward:</small></h4>
+        <h4 class="sectionHeader"> My projects <small>These projects help shape who I am and push me moving forward:</small></h4>
+        <ul>
+            <li>
+                <a> Technical Projects</a>
+            </li>
+            <li>
+                <a> Social Projects</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- EXPERIENCE SECTION -->
+    <div class="black">
+        <h4 class="sectionHeader"> Working Experience <small> The best preparation for good work tomorrow is to do good work today - Elbert Hubbard </small></h4>
     </div>
 </div>
 
