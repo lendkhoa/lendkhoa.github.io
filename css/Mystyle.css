@@ -21,7 +21,15 @@ header {
 	 font-style: italic;
 	 font-size: 70px;
 	 line-height: 30px;
-	 padding-bottom: 70px;
+	 padding-bottom: 40px;
+}
+#iam {
+	font-family: sans-serif;
+	font-weight: 100;
+	font-size: 23px;
+	font-style: italic;
+	color: brown;
+	padding-bottom: 30px;
 }
 
 .sectionHeader{
