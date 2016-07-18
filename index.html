@@ -1,157 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+        <html lang="en">
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+        <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta name="description" content="">
+            <meta name="author" content="">
 
-    <title>
-        Welcome to my growth space!
-    </title>
+            <title>
+                Welcome to my growth space!
+            </title>
 
-    <link href="css/Mystyle.css" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link href="css/1-col-portfolio.css" rel="stylesheet">
+            <link href="css/Mystyle.css" rel="stylesheet">
+            <link href="css/bootstrap.min.css" rel="stylesheet">
+            <!-- Custom CSS -->
+            <link href="css/1-col-portfolio.css" rel="stylesheet">
 
-    <style>
-        ul#menu li 
-        {
-            display: inline;
-        }
-        
-        .wrapper {
-            float: center;
-            margin: 5px;
-            padding: 15px;
-            width: 700px;
-            height: 300px;
-        } 
+            <style>
+                ul#menu li
+                {
+                    display: inline;
+                }
 
+                .wrapper {
+                    float: top;
+                    margin: 5px;
+                    padding: 15px;
+                    width: 700px;
+                    height: 300px;
+                }
 
-</style>
-</head>
+            </style>
+        </head>
 
 <body>
+
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#"><img src="img/logo.png" align="middle" width=37 height=37></a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="mailto: khoadang.le@outlook.com"><img src="img/mailIcon.jpg" height="21" width="41" alt="email me"/>  Khoa N. Le</a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/khoa-le-1503028a?trk=nav_responsive_tab_profile_pic"><img src ="img/linkedIcon.png" height="21" width="41" alt="email me"/>  LinkedIn</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img src="img/logo.png" align="middle" width=37 height=37></a>
         </div>
-        <!-- /.container -->
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="resume.html"><img src="img/resumeIcon.jpg" height="30" width="21" alt="Resume"/>  Resume </a>
+                </li>
+                <li>
+                    <a href="projects.html"><img src="img/pencil2.png" height="30" width="25" alt="Projects"/>  Projects </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/khoa-le-1503028a?trk=nav_responsive_tab_profile_pic"><img src ="img/linkedIcon.png" height="21" width="41" alt="email me"/>  LinkedIn</a>
+                </li>
+                <li>
+                    <a href="contact.html"><img src="img/mailIcon.jpg" height="21" width="41" alt="email me"/> Contact </a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
 </nav>
 
 <div class="wrapper">
-    
-    <h1 align="center"> Hello, I'm </h1>
-    <p id="name" align="center"> Khoa Le </p>
-    <p id="iam" align="center"> --- & I am --- </p>
-    
-    <div class="black">
-        <h4 class="sectionHeader">A learner, maker and so much more: </h4>
-        <p id="growthSpace">
-            Welcome to my personal growth space:
-            I am a freelance front-end developer, and web designer. I spend most of my time coding and learning new technology. I love designing + building beautiful websites and applications.
-        </p>
-    </div>
 
-    <!-- PROJECTS SECTION -->
-    <div class="projects">
-        <h4 class="sectionHeader"> My projects <small>These projects help shape who I am and push me moving forward:</small></h4>
-        <ul>
-            <li>
-                <a href="error.html" target="_self">Technical Projects</a>
-            </li>
-            <li>
-                <a> Social Projects</a>
-            </li>
-        </ul>
-    </div>
+    <div class="col-lg-12 col-md-6 col-sm-6 col-xs-6">
+        <!--Name header-->
+        <div id="helloHeader">
+            <h1 align="center"> Hello, I'm </h1>
+            <p id="name" align="center"><img id="profile" src="img/profile.jpg" height="200" width="170"> Khoa Le</p>
+        </div>
 
-    <!-- EXPERIENCE SECTION -->
-    <div class="black">
-        <h4 class="sectionHeader"> Working Experience <small> The best preparation for good work tomorrow is to do good work today - Elbert Hubbard </small></h4>
-        <ul id="menu">
-            <li>
-                <div class="row">
-                    <img src="img/lab.JPG" height="200" width="230"/>
-                    <div class="col-md-7">
-                        <h3>Information Lab Assistant </h3>
-                        <h4> Campus's largest information lab</h4>
-                        <p id="growthSpace"> Maintain a top-notch customer service and a large quantity of assets.
-                        Exellent listening and problem solving skills
-                        </p>
-                    </div> 
-                </div>
-            </li>
-            <hr>
-            <!--end list element-->
-            <li>
-                <div class="row">
-                    <a href="http://tel-alumni.truman.edu"><img src="img/trumanlogo.jpg" height="200" width="230"/></a>
-                    <div class="col-md-7">
-                        <h3>Caller at Tel Alumni</h3>
-                        <h4>Help funding scholarships and important on-campus projects</h4>
-                        <p id="growthSpace">
-                        Securely maintained a database of contacts and credit cards information. Raised more than $5000 for the funding of Truman's scholarships. Channeled financial supports to build Pickler library's study centers - total cost approximately $10,000
-                        </p>
-                    </div>
-                </div>
-            </li>
-            <hr>
-            <!--end list element-->
-             <li>
-                <div class="row">
-                    <!--picture-->
-                    <a href=""><img src ="img/orientation.jpg" height="220" width="440"/></a>
-                    <div class="col-md-7">
-                        <h3>International Ambassador</h3>
-                        <h4>Bridge the cultural differences</h4>
-                        <p id="growthSpace">
-                        Actively provide counsel and assistance for approximately 150 international incoming students at orientations.  
-                        </p>
-                    </div>
-                </div>
-            </li>
-        </ul>
+        <!--Introduction-->
+        <div class="black">
+            <h4 class="sectionHeader">I'm a learner, maker and so much more... </h4>
+        </div>
+
+        <div class="projects">
+            <h4 class="sectionHeader"> <small> </small></h4>
+        </div>
+
+        <!-- EXPERIENCE SECTION -->
 
     </div>
-    <!-- END EXPERIENCE SECTION -->
-
-    <br>
-
-    <!-- SOCIAL PROJECTS-->
-    <div>
-        <h4 class="sectionHeader"> Social projects <small>The best way to find yourself is to lose yourself in the service of others - Mahatma Gandhi </small></h4>
-    </div>
-
-</div>
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <hr>
+    &#169; lenkdhoa 2016
+</div>
 </body>
-
-
 </html>
