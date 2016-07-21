@@ -48,8 +48,15 @@ header {
     margin-bottom: 0px;
     padding-top: 1px;
 }
-.projects{
-    padding: 5px;
+.project{
+    padding: 20px;
+    margin: 30px;
+    border: none;
+    outline: none;
+    width: 300px;
+    height: 150px;
+    border-radius: 15px;
+    color: whitesmoke;
 }
 
 .row{
@@ -74,7 +81,6 @@ header {
 @-webkit-keyframes slowlyDisplay {
     0%   { opacity: 0; }
     100% { opacity: 1; }
-
 }
 
 .grey-box img {
