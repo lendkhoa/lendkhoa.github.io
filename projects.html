@@ -28,6 +28,24 @@
                 timeout: 2000
             });
         });
+        
+        $(function(){
+           $("#spaceShip").click(function () {
+
+               $("#spaceShipContent").toggle(function(){
+                   $("#spaceShipContent").animate({width:'auto', height:'auto', opacity: '1'}, 2000);
+               });
+           });
+        });
+
+        $(function(){
+            $("#brain").click(function () {
+                $("#trainyourbrain").toggle(function(){
+                    $("#trainyourbrain").animate({width:'auto', height:'auto', opacity: '1'}, 2000);
+                });
+            });
+        });
+        
     </script>
     <!--Basic styles-->
     <style>
@@ -114,25 +132,6 @@
             </p>
         </h4>
     </div>
-
-    <script>
-        $(function(){
-           $("#spaceShip").click(function () {
-
-               $("#spaceShipContent").toggle(function(){
-                   $("#spaceShipContent").animate({width:'auto', height:'auto', opacity: '1'}, 2000);
-               });
-           });
-        });
-
-        $(function(){
-            $("#brain").click(function () {
-                $("#trainyourbrain").toggle(function(){
-                    $("#trainyourbrain").animate({width:'auto', height:'auto', opacity: '1'}, 2000);
-                });
-            });
-        });
-    </script>
 </div>
 <hr>
 &#169; lendkhoa 2016
