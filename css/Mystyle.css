@@ -110,7 +110,7 @@ header {
     transition: font-size 1s ease;
 }
 
-#name {
+.name {
     font-family: "Old Standard TT";
 	font-weight: 400;
     font-style: italic;
