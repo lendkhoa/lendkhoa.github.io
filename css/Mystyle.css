@@ -4,7 +4,8 @@ body {
 	margin: auto;
 }
 a {
-    font-size: 20px;
+    font-size: 30px;
+    color: #313131;
 }
 
 #inlineLink {
@@ -106,8 +107,12 @@ header {
 .navbar-nav ul li a:hover {
     font-size: 40px;
     font-weight: bold;
-    border: white solid;
+    border: darkgray;
     transition: font-size 1s ease;
+}
+
+.navbar-nav ul li a:active {
+
 }
 
 .name {

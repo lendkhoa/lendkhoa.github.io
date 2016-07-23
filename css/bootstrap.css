@@ -1095,7 +1095,6 @@ body {
   line-height: 1.42857143;
   color: blue;
   background-color: #fff;
-  background-image: url("background.JPG");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -6560,7 +6559,7 @@ button.close {
   position: fixed;
 }
 @-ms-viewport {
-  width: device-width;
+  width: auto;
 }
 .visible-xs,
 .visible-sm,
