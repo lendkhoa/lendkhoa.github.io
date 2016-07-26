@@ -36,16 +36,18 @@
                     $("#trainyourbrain").animate({width:'auto', height:'auto', opacity: '1'}, 2000);
                 });
             });
+            $("#fruitbutton").click(function () {
+                $("#fruit").toggle(function(){
+                    $("#fruit").animate({width:'auto', height:'auto', opacity: '1'}, 2000);
+                });
+            });
 
         });
         
     </script>
     <!--Basic styles-->
     <style>
-        #spaceShipContent{
-            display: none;
-        }
-        #trainyourbrain{
+        #spaceShipContent, #trainyourbrain, #fruit{
             display: none;
         }
 
@@ -122,12 +124,11 @@
                         <p>
                             Relax with a classic fruits chopping game
                         </p>
-                        <button class="project">Check it out</button>
+                        <button class="project" id="fruitbutton">Check it out</button>
                     </figcaption>
                 </figure>
             </li>
         </ul>
-
     </div>
 
 
@@ -161,6 +162,22 @@
                     practicing mind calculation. The game can be really challenging when you set
                     a high upper bound in a short amount of time. What are you waiting for?
                     Click here to go to <a href="https://github.com/lendkhoa/web-trainyourbrain"> github.</a>
+                </p>
+            </h4>
+        </div>
+
+        <!--fruit slider-->
+        <div class="black" id="fruit">
+            <br>
+            <h4 class="sectionHeader"> <a href="#" class="sectionHeader"> Fruits Slider </a></h4>
+            <a href="#" class="sectionHeader"></a>
+
+            <h4>
+                <p align="left" class="listContent">
+                    Fruits slider is replica of the iconic Fruit Ninja game on desktop platform.
+                    The tools go into the development of this game include: JavaScript, jQuery, jQuery ui.
+                    <br/>
+                    Click here to take a look at the <a href="#"> game on github.</a>
                 </p>
             </h4>
         </div>
