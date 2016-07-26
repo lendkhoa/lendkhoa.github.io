@@ -52,7 +52,8 @@
     padding: 0px 30px;
     color: #fff;
     font-weight: 300;
-    font-size: 12px;
+    font-size: 16px;
+    overflow-y: scroll;
 }
 
 .grid figcaption a {
@@ -63,11 +64,12 @@
     display: inline-block;
     background: #ff9800;
     color: #fff;
+    overflow-y: scroll;
 }
 
 /* Caption Style 3 */
 .cs-style-3 figure {
-    overflow: hidden;
+    overflow: visible;
 }
 
 .cs-style-3 figure img {
@@ -90,30 +92,38 @@
     top: auto;
     bottom: 0;
     opacity: 0;
-    -webkit-transform: translateY(100%);
-    -moz-transform: translateY(100%);
-    -ms-transform: translateY(100%);
-    transform: translateY(100%);
+    -webkit-transform: translateY(50%);
+    -moz-transform: translateY(50%);
+    -ms-transform: translateY(50%);
+    transform: translateY(50%);
     -webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
     -moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
     transition: transform 0.4s, opacity 0.1s 0.3s;
+    overflow: auto;
 }
 
 .cs-style-3 figure:hover figcaption,
 .cs-style-3 figure.cs-hover figcaption {
     opacity: 1;
-    -webkit-transform: translateY(0px);
-    -moz-transform: translateY(0px);
-    -ms-transform: translateY(0px);
-    transform: translateY(0px);
+    -webkit-transform: translateY(60px); /*0 - 70 works */
+    -moz-transform: translateY(60px);
+    -ms-transform: translateY(60px);
+    transform: translateY(60px);
     -webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
     -moz-transition: -moz-transform 0.4s, opacity 0.1s;
     transition: transform 0.4s, opacity 0.1s;
+    overflow: auto;
+}
+.black{
+    position:relative;
+    bottom: 0;
+    width: 100%;
+    display: inline-block;
 }
 
 .cs-style-3 figcaption a {
     position: absolute;
-    bottom: 20px;
+    bottom: 10px;
     right: 75px;
 }
 
