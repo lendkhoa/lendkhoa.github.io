@@ -49,18 +49,6 @@ header {
     margin-bottom: 0px;
     padding-top: 1px;
 }
-.project{
-    padding: 20px;
-    margin: 20px;
-    border: none;
-    outline: none;
-    width: 300px;
-    height: 150px;
-    border-radius: 15px;
-    font-size: 20px;
-    color: whitesmoke;
-}
-
 .row{
     margin-bottom: 20px;
 }
@@ -132,4 +120,37 @@ header {
 	font-style: italic;
 	color: brown;
 	padding-bottom: 30px;
+}
+#spaceShip, #spaceShipContent{
+    float: left;
+    width: 63%;
+    display: inline-block;
+}
+#brain, #trainyourbrain{
+    float: right;
+    width:30%;
+    display: inline-block;
+}
+#fruit{
+    float: left;
+    width: 40%;
+    display: inline-block;
+}
+.project{
+    /*padding: 10px;*/
+    margin: 5px;
+    border: none;
+    outline: none;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    font-size: 20px;
+    color: whitesmoke;
+}
+.project:hover{
+    /*transform: translateY(-50px);*/
+    /*transition: transform 0.4s, opacity 0.1s 0.5s;*/
+}
+#fruit, #brain, #spaceShip{
+    display: none;
 }
