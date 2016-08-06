@@ -6,8 +6,6 @@ function startMoving(img) {
     var imgWidth = img$.width();
     var screenWidth = $(window).width()-300;
     var amount = screenWidth - (parseInt(img$.css("left"), 10) || 0);
-    // if already past right edge, reset to
-    // just left of left edge
     if (amount <=0 ) {
         img$.css("left", -imgWidth-200);
         amount = screenWidth + imgWidth;

@@ -1,0 +1,174 @@
+/* Add a cover background picture for the featured part with fixed height*/
+.header{
+    height: 60px;
+
+}
+.container-fluid{
+    top: 60px;
+    overflow-y: hidden;
+}
+
+.jumbotron{
+    background: url(../img/thelake.jpg) center center;
+    background-size: cover;
+    border-radius: 10px;
+    height: 660px;
+    top:60px;
+}
+
+.featured {
+    color: white;
+}
+
+.featured h1, h3{
+    padding-top: 60px;
+    font-family: 'Lobster Two', cursive;
+}
+.featured h2 {
+    font-size: 90px;
+    font-family: 'Lobster Two', 'bold';
+    margin-bottom: 40px;
+}
+.featured h4:hover{
+    color: orange;
+    background-color: white;
+    border-radius: 10px;
+    opacity: 0.9;
+    padding: 5px 5px;
+}
+
+.featured .btn-default{
+    font-weight: bold;
+    opacity: 0.7;
+    border-radius:10px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.featured .btn-default:hover{
+    color: #649BF6;
+}
+.featured #profile{
+    width:170px;
+    height:200px;
+}
+
+.logo{
+    height: 200px;
+    width: 180px;
+    text-align: center;
+}
+.navbar-toggle {
+    border-color: black;
+}
+.navbar-toggle .icon-bar{
+    background-color: black;
+}
+.navbar-nav li:hover {
+    background-color: transparent;
+}
+.navbar-nav a {
+    font-size: 25px;
+    color: black;
+}
+.navbar-nav a:hover {
+    font-size: 25px;
+    color: #649BF6;
+    background-color: transparent;
+}
+.moving{
+    margin-top:20px;
+    width: 150px;
+    height: 50px;
+    position: absolute;
+}
+.moving:hover{
+    cursor: hand;
+}
+.row{
+    position:relative;
+}
+
+#photocredit{
+    margin-top:10px;
+    position:absolute;
+}
+#photocredit p{
+    font-size: 10px;
+}
+.tooltip {
+    /*position: relative;*/
+    /*display: inline-block;*/
+    /*border-bottom: 1px dotted black;*/
+
+    position:relative;
+    margin-right: 30px;
+    color:white;
+    bottom:0;
+    right:0;
+    opacity: 0.5;
+}
+
+#photocredit .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+#photocredit .tooltip .tooltiptext:hover{
+    visibility: visible;
+}
+
+.panel-footer{
+    background-color: white;
+}
+
+@media (min-width: 571px) and (max-width:850px){
+    .jumbotron{
+        height: 700px;
+        margin:0;
+    }
+    .logo{
+        width:50px;
+        height:70px;
+    }
+    .featured h1{
+        padding-top:30px;
+    }
+    .featured #intro{
+        padding-top: 40px;
+    }
+    .featured p{
+        font-size:17px;
+        padding-top:10px;
+    }
+    .featured{
+        text-align: center;
+    }
+}
+@media (max-width:570px){
+    .jumbotron{
+        height: 600px;
+        margin:0;
+    }
+    .logo{
+        width:80px;
+        height:50px;
+    }
+    .featured h1{
+        padding-top:10px;
+    }
+    .featured h4{
+        font-size:15px;
+        padding-top: 0px;
+    }
+    .featured{
+        text-align: center;
+    }
+}
