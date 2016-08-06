@@ -4,7 +4,7 @@
 function startMoving(img) {
     var img$ = $(img);
     var imgWidth = img$.width();
-    var screenWidth = $(window).width()-300;
+    var screenWidth = $(window).width()-30;
     var amount = screenWidth - (parseInt(img$.css("left"), 10) || 0);
     if (amount <=0 ) {
         img$.css("left", -imgWidth-200);
@@ -14,7 +14,6 @@ function startMoving(img) {
     var time = amount * 1000 / moveRate;
     img$.stop(true)
         .animate({left: "+=" + amount}, time, "linear", function() {
-            // when animation finishes, start over
             startMoving(this);
         })
 }
