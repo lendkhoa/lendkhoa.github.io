@@ -1,108 +1,99 @@
 <!DOCTYPE html>
-        <html lang="en">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min2.css" rel="stylesheet">
+    <link href="css/landingStyling.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Lobster+Two" rel="stylesheet">
+    <script src="js/bootstrap.min.js"></script>
 
-        <head>
-            <meta charset="utf-8">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-            <meta name="description" content="">
-            <meta name="author" content="">
+    <title> Landing </title>
 
-            <title>
-                Khoa Le
-            </title>
-
-            <link href="css/Mystyle.css" rel="stylesheet">
-            <link href="css/bootstrap.min.css" rel="stylesheet">
-            <!-- Custom CSS -->
-            <link href="css/1-col-portfolio.css" rel="stylesheet">
-
-            <style>
-                ul#menu li
-                {
-                    display: inline;
-                }
-
-                .wrapper {
-                    float: top;
-                    margin: 5px;
-                    padding: 15px;
-                    width: 700px;
-                    height: 300px;
-                }
-
-            </style>
-        </head>
-
+</head>
 <body>
-
-<div class="col-lg-12 col-md-7 col-sm-6 col-xs-6">
-        <!--Menu bar-->
-        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-            <div class="container">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" style="float:left; margin-left: 10px" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#"><img src="img/logo.png" align="middle" width=35 height=35></a>
-                </div>
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav">
-                        <li>
-                            <a href="resume.html"><img src="img/resumeicon2.png" height="30" width="25" alt="Resume"/>  Resume </a>
-                        </li>
-                        <li>
-                            <a href="projects.html"><img src="img/projectbox.png" height="30" width="30" alt="Projects"/>  Projects </a>
-                        </li>
-                        <li>
-                            <a href="error.html"> <img src="img/usericon.png" height="27" width="27" style="margin-right: 2px"/>  About Me </a>
-                        </li>
-                        <li>
-                            <a href="contact.html"><img src="img/envelope.png" height="21" width="41" alt="email me"/> Contact </a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- /.navbar-collapse -->
+<div class="header">
+    <nav class="navbar navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" style="float:left; margin-left: 10px" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="img/logo.png" align="middle" width=35 height=35></a>
             </div>
-        </nav>
-
-        <!--Name header-->
-        <div id="helloHeader">
-            <h1 align="center"> Hello, I'm </h1>
-            <span>
-                <p class="name" align="center" style="margin-bottom: 20px"><img id="profile" src="img/profile.jpg" height="200" width="170" style="margin-bottom: 20px">
-                    Khoa Le
-                </p>
-            </span>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="resume.html"><img src="img/resumeicon2_burned.png" height="30" width="25" alt="Resume"/>  Resume </a>
+                    </li>
+                    <li>
+                        <a href="projects.html"><img src="img/projectbox_burned.png" height="30" width="30" alt="Projects"/>  Projects </a>
+                    </li>
+                    <li>
+                        <a href="error.html"> <img src="img/usericon_burned.png" height="27" width="27" style="margin-right: 2px"/>  About Me </a>
+                    </li>
+                    <li>
+                        <a href="contact.html"><img src="img/envelope_burned.png" height="21" width="41" alt="email me"/> Contact </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
+    </nav>
+</div>
 
-        <!--Introduction-->
-        <div class="black">
-            <h4 class="sectionHeader">I'm a learner, maker and so much more... </h4>
-        </div>
+<div class="container-fluid">
 
-        <div class="projects">
-            <h4 class="sectionHeader"> <small> </small></h4>
+    <div class="jumbotron">
+        <div class="container">
+
+            <div class="featured">
+                <div class="row">
+                    <div class="col-md-9">
+                        <p>
+                            <a href="mailto: khoadang.le@outlook.com"><img src="img/planemessage_burned.png" class="moving"></a>
+                        </p>
+                        <h3> Hello, my name is </h3>
+                        <h2 id="name"> Khoa Le </h2>
+                        <h4>
+                            I'm a software engineering student from Vietnam
+                            living in the US. My whole life I have thrived to
+                            better myself by learning new things, meeting new people
+                            and be ready for challenges as well as opportunities.<br/>
+                        </h4>
+                        <a href="#" class="btn btn-default"> Check out some of my works</a>
+                    </div>
+                </div>
+
+                <div id="photocredit">
+                    <p class="tooltip">
+                        Photo by Trung Vo
+                        <span class="tooltiptext"> trunglive@gmail.com </span>
+                    </p>
+                </div>
+            </div>
         </div>
-    <img src="img/jobwanted2.png" class="moving" id="myMan">
-    <br>
-    <br>
-    <br>
-    <hr>
-    <div class="col-sm-8" id="footnote">
-        <p>
-            &#169; lendkhoa 2016
+    </div>
+
+    <div class="panel-footer">
+        <p>  &#169; lendkhoa 2016
             <a href="https://www.linkedin.com/in/khoa-le-1503028a?trk=nav_responsive_tab_profile_pic"><img src ="img/linkedIcon.png" height="55" width="85"/> </a>
             <a href="https://github.com/lendkhoa"><img src ="img/gihubicon.png" height="31" width="31"/></a>
         </p>
     </div>
 </div>
-    <script src="js/jquery.js"></script>
-    <script src="js/landingpage.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/landingpage.js"></script>
+
+
 </body>
 </html>
