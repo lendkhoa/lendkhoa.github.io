@@ -1,6 +1,6 @@
 /* Add a cover background picture for the featured part with fixed height*/
 body{
-    /*background: url(img/thenail.) no-repeat center center;*/
+    background: url(../img/thenail.jpg) no-repeat center center;
     background-attachment:fixed;
     background-size: cover;
 }
@@ -14,7 +14,7 @@ body{
 }
 
 .jumbotron{
-    background: url(../img/thelake.jpg) center center;
+    background: transparent;
     background-size: cover;
     border-radius: 10px;
     height: 660px;
@@ -93,45 +93,12 @@ body{
     position:relative;
 }
 
-#photocredit{
-    margin-top:10px;
-    position:absolute;
-}
-#photocredit p{
-    font-size: 10px;
-}
-.tooltip {
-    /*position: relative;*/
-    /*display: inline-block;*/
-    /*border-bottom: 1px dotted black;*/
-
-    position:relative;
-    margin-right: 30px;
-    color:white;
-    bottom:0;
-    right:0;
-    opacity: 0.5;
-}
-
-#photocredit .tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-
-    /* Position the tooltip */
-    position: absolute;
-    z-index: 1;
-}
-#photocredit .tooltip .tooltiptext:hover{
-    visibility: visible;
-}
-
 .panel-footer{
     background-color: white;
+    opacity:0.5;
+    border-radius: 20px;
+    padding:0;
+    padding-left: 21px;
 }
 
 @media (min-width: 571px) and (max-width:850px){
