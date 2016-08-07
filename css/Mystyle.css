@@ -98,9 +98,10 @@ header {
     border: darkgray;
     transition: font-size 1s ease;
 }
-
-.navbar-nav ul li a:active {
-
+.navbar-nav a {
+    font-size: 25px;
+    color: black;
+    font-family: 'Dosis', medium;
 }
 
 .name {

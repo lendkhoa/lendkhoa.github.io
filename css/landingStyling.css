@@ -80,7 +80,9 @@ body{
 .navbar-nav a {
     font-size: 25px;
     color: black;
+    font-family: 'Dosis', medium;
 }
+
 .navbar-nav a:hover {
     font-size: 25px;
     color: #649BF6;
