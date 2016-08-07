@@ -68,6 +68,12 @@ body{
 .navbar-toggle .icon-bar{
     background-color: black;
 }
+.navbar {
+    opacity: 1;
+    border-bottom: 1px solid white;
+    margin: 0 15%;
+}
+
 .navbar-nav li a:hover {
     background-color: transparent;
 }
