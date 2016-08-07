@@ -119,6 +119,9 @@ body{
     .featured h1{
         padding-top:30px;
     }
+    .featured h3{
+        color: #4285F4;
+    }
     .featured #intro{
         padding-top: 40px;
     }
@@ -141,6 +144,9 @@ body{
     }
     .featured h1{
         padding-top:10px;
+    }
+    .featured h3{
+        color: #4285F4;
     }
     .featured h4{
         font-size:15px;
