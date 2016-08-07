@@ -68,7 +68,7 @@ body{
 .navbar-toggle .icon-bar{
     background-color: black;
 }
-.navbar-nav li:hover {
+.navbar-nav li a:hover {
     background-color: transparent;
 }
 .navbar-nav a {
