@@ -1,7 +1,12 @@
 /* Add a cover background picture for the featured part with fixed height*/
+body{
+    /*background: url(img/thenail.) no-repeat center center;*/
+    background-attachment:fixed;
+    background-size: cover;
+}
+
 .header{
     height: 60px;
-
 }
 .container-fluid{
     top: 60px;
