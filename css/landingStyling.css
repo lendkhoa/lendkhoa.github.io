@@ -87,9 +87,10 @@ body{
     background-color: transparent;
 }
 .moving{
-    margin-top:20px;
-    width: 150px;
-    height: 50px;
+    margin-top:10px;
+    margin-bottom:7px;
+    width: 230px;
+    height: 80px;
     position: absolute;
 }
 .moving:hover{
@@ -116,6 +117,10 @@ body{
         width:50px;
         height:70px;
     }
+    .jumbotron .container .featured .row .col-md-9 .moving {
+        width: 180px;
+        height: 60px;
+    }
     .featured h1{
         padding-top:30px;
     }
@@ -141,6 +146,10 @@ body{
     .logo{
         width:80px;
         height:50px;
+    }
+    .jumbotron .container .featured .row .col-md-9 .moving {
+        width: 140px;
+        height: 60px;
     }
     .featured h1{
         padding-top:10px;
