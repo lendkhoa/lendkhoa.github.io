@@ -42,6 +42,7 @@ body{
     padding: 5px 5px;
 }
 .featured #intro {
+    display: inline-block;
     line-height:130%;
     text-align: justify;
     font-family: 'Dosis', extra-bold;
@@ -89,11 +90,13 @@ body{
     color: black;
     font-family: 'Dosis', medium;
 }
-
 .navbar-nav a:hover {
     font-size: 25px;
     color: #649BF6;
     background-color: transparent;
+}
+#togglebutton{
+    display: none;
 }
 .moving{
     margin-top:10px;
@@ -172,7 +175,12 @@ body{
     .featured h3{
         color: #4285F4;
     }
+
+    #togglebutton{
+        display: inline-block;
+    }
     .featured #intro{
+        display:none;
         font-size:17px;
         background-color:white;
         opacity: 0.8;
