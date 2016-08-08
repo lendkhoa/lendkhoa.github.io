@@ -34,12 +34,19 @@ body{
     font-family: 'Lobster Two', 'bold';
     margin-bottom: 40px;
 }
-.featured h4:hover{
+.featured #intro:hover{
     color: orange;
     background-color: white;
     border-radius: 10px;
     opacity: 0.9;
     padding: 5px 5px;
+}
+.featured #intro {
+    line-height:130%;
+    text-align: justify;
+    font-family: 'Dosis', extra-bold;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 .featured .btn-default{
@@ -112,7 +119,7 @@ body{
 
 @media (min-width: 571px) and (max-width:850px){
     .jumbotron{
-        height: 700px;
+        height: 900px;
         margin:0;
     }
     .logo{
@@ -129,8 +136,14 @@ body{
     .featured h3{
         color: #4285F4;
     }
+
     .featured #intro{
-        padding-top: 40px;
+        background-color:white;
+        opacity: 0.8;
+        color:  #4285F4;
+        border-radius: 20px;
+        padding:7px 6px;
+        margin: 20px;
     }
     .featured p{
         font-size:17px;
@@ -142,7 +155,7 @@ body{
 }
 @media (max-width:570px){
     .jumbotron{
-        height: 600px;
+        height: 700px;
         margin:0;
     }
     .logo{
@@ -159,9 +172,14 @@ body{
     .featured h3{
         color: #4285F4;
     }
-    .featured h4{
-        font-size:15px;
-        padding-top: 0px;
+    .featured #intro{
+        font-size:17px;
+        background-color:white;
+        opacity: 0.8;
+        color:  #4285F4;
+        border-radius: 20px;
+        padding:7px 6px;
+        margin: 20px;
     }
     .featured{
         text-align: center;
