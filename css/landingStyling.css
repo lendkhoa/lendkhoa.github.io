@@ -98,6 +98,7 @@ body{
 #togglebutton{
     display: none;
 }
+/*use class moving to run object*/
 .moving{
     margin-top:10px;
     margin-bottom:7px;
@@ -106,6 +107,17 @@ body{
     position: absolute;
 }
 .moving:hover{
+    cursor: hand;
+}
+.poster {
+    margin-left: 20px;
+    margin-top:10px;
+    margin-bottom:7px;
+    width: 170px;
+    height: 80px;
+    position: absolute;
+}
+.poster:hover{
     cursor: hand;
 }
 .row{
