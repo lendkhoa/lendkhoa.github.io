@@ -45,7 +45,7 @@ body{
     display: inline-block;
     line-height:130%;
     text-align: justify;
-    font-family: 'Dosis', extra-bold;
+    font-family: 'Dosis', regular;
     font-size: 25px;
     font-weight: bold;
 }
@@ -131,10 +131,19 @@ body{
     padding:0;
     padding-left: 21px;
 }
+#hidefirst{
+    display:none;
+}
 
 @media (min-width: 571px) and (max-width:850px){
+    #showfirst{
+        display:none;
+    }
+    #hidefirst{
+        display: none;
+    }
     .jumbotron{
-        height: 900px;
+        height:1000px;
         margin:0;
     }
     .logo{
@@ -169,6 +178,14 @@ body{
     }
 }
 @media (max-width:570px){
+    #showfirst{
+        display:none;
+    }
+    .featured .row .col-md-9 #hidefirst{
+        display: inline-flex;
+        margin:0;
+        text-align:center;
+    }
     .jumbotron{
         height: 900px;
         margin:0;
