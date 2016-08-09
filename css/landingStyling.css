@@ -121,6 +121,7 @@ body{
     cursor: hand;
 }
 #timer{
+    text-align:center;
     background-color: white;
     opacity: 0.5;
     border-radius: 15px;
