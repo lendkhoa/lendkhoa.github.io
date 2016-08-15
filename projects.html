@@ -26,20 +26,25 @@
            $("#spaceShip").click(function () {
 
                $("#spaceShipContent").toggle(function(){
-                   $("#spaceShipContent").animate({width:'auto', height:'auto', opacity: '1'}, 2000);
+                   $("#spaceShipContent").animate({width:'auto', height:'auto', opacity: '1'}, 1000);
                });
            });
-        });
 
-        $(function(){
             $("#brain").click(function () {
                 $("#trainyourbrain").toggle(function(){
-                    $("#trainyourbrain").animate({width:'auto', height:'auto', opacity: '1'}, 2000);
+                    $("#trainyourbrain").animate({width:'auto', height:'auto', opacity: '1'}, 1000);
                 });
             });
+
             $("#fruitbutton").click(function () {
                 $("#fruit").toggle(function(){
-                    $("#fruit").animate({width:'auto', height:'auto', opacity: '1'}, 2000);
+                    $("#fruit").animate({width:'auto', height:'auto', opacity: '1'}, 1000);
+                });
+            });
+
+            $("#stopwatchbutton").click(function () {
+                $("#timeManagement").toggle(function(){
+                    $("#timeManagement").animate({width:'auto', height:'auto', opacity: '1'}, 1000);
                 });
             });
 
@@ -48,7 +53,7 @@
     </script>
     <!--Basic styles-->
     <style>
-        #spaceShipContent, #trainyourbrain, #fruit{
+        #spaceShipContent, #trainyourbrain, #fruit, #timeManagement{
             display: none;
         }
 
@@ -131,6 +136,25 @@
                 </figure>
             </li>
         </ul>
+        <ul class="grid cs-style-3">
+            <li>
+                <figure>
+                    <img src="img/backgroundicon/timeManagement.png" style="width: 45%; height: 60%">
+                    <figcaption>
+                        <p> Manage your daily tasks with this elegant, easy-to-use app</p>
+                        <button class="project" id="stopwatchbutton">Check it out</button>
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                </figure>
+            </li>
+        </ul>
     </div>
 
 
@@ -151,7 +175,7 @@
                 </p>
             </h4>
         </div>
-
+        <br/>
         <!--web project-->
         <div class="black" id="trainyourbrain">
             <br>
@@ -167,7 +191,7 @@
                 </p>
             </h4>
         </div>
-
+        <br/>
         <!--fruit slider-->
         <div class="black" id="fruit">
             <br>
@@ -176,12 +200,28 @@
             <h4>
                 <p align="left" class="listContent">
                     Fruits slider is replica of the iconic Fruit Ninja game on desktop platform.
-                    The tools go into the development of this game include: JavaScript, jQuery, jQuery ui.
+                    The tools go into the development of this game include: jQuery, jQuery ui.
                     <br/>
                     Click here to take a look at the <a href="https://github.com/lendkhoa/fruit-slider"> game on github.</a>
                 </p>
             </h4>
         </div>
+        <br/>
+        <!--time management-->
+        <div class="black" id="timeManagement">
+            <br>
+            <h4 class="sectionHeader"> <a href="projectcontents/Stop%20watch%20app/index.html" class="sectionHeader"> Time Management </a></h4>
+
+            <h4>
+                <p align="left" class="listContent">
+                    Stay on top of schedule and manage your daily tasks with ease!<br/>
+                    The tools go into the development of this game include: jQuery, jQuery ui, sjPDF
+                    <br/>
+                </p>
+            </h4>
+        </div>
+
+
     </div>
 
 
