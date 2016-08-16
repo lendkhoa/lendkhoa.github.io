@@ -77,12 +77,6 @@ body{
     background-color: black;
 }
 
-.navbar {
-    opacity: 1;
-    border-bottom: 1px solid white;
-    margin: 0 15%;
-}
-
 .navbar-nav li a:hover {
     background-color: transparent;
 }
@@ -138,6 +132,9 @@ body{
     border-radius: 20px;
     padding:0;
     padding-left:21px;
+}
+#showfirst{
+    margin-top: 25px;
 }
 #hidefirst{
     display:none;

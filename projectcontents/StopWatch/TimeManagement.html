@@ -40,7 +40,7 @@
             var doc = new jsPDF('p', 'mm', [297, 210]);
             doc.text( 20, 20, 'Tasks on: '+today);
             doc.fromHTML($('#laps').get(0), 20, 20, {
-                'width':900,
+                'width':300,
                 'elementHandlers':specialElementHandlers
             });
             doc.output('dataurlnewwindow');
