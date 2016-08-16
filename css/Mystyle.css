@@ -92,6 +92,12 @@ header {
 	font-size: 19px;
 
 }
+.navbar {
+    opacity: 1;
+    border-bottom: 1px solid white;
+    margin: 0 15%;
+}
+
 .navbar-nav ul li a:hover {
     font-size: 40px;
     font-weight: bold;
