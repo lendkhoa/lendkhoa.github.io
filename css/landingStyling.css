@@ -209,13 +209,15 @@ body{
     }
     .jumbotron{
         height: 1200px;
-        margin:0;
+    }
+    .about{
+        height: 1200px;
     }
     .logo{
         width:80px;
         height:50px;
     }
-    .jumbotron .container .featured .row .col-md-9 .moving {
+    .jumbotron .container .featured .row .moving {
         width: 140px;
         height: 60px;
     }
@@ -224,8 +226,11 @@ body{
     }
     .featured h3{
         color: #4285F4;
+        font-size: 3em;
     }
-
+    .featured h2 {
+        font-size: 7em;
+    }
     #togglebutton{
         display: inline-block;
     }
