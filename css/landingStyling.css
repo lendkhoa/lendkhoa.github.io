@@ -17,37 +17,53 @@ body{
     background: transparent;
     background-size: cover;
     border-radius: 10px;
-    height: 660px;
+    width: 100%;
+    height: 100%;
     top:60px;
+    position: absolute;
+}
+.about{
+    padding-top: 10%;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    background: white;
+    opacity: 0.9;
 }
 
 .featured {
     color: white;
+    text-align: center;
 }
 
-.featured h1, h3{
+.featured h3{
     padding-top: 60px;
+    font-size: 4em;
     font-family: 'Lobster Two', cursive;
 }
 .featured h2 {
-    font-size: 90px;
+    font-size: 10em;
     font-family: 'Lobster Two', 'bold';
     margin-bottom: 40px;
 }
-.featured #intro:hover{
-    color: orange;
-    background-color: white;
-    border-radius: 10px;
-    opacity: 0.9;
-    padding: 5px 5px;
-}
-.featured #intro {
+
+#intro {
+    text-align: center;
     display: inline-block;
     line-height:130%;
     text-align: justify;
     font-family: 'Dosis', regular;
     font-size: 25px;
-    font-weight: bold;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.panel-footer{
+    background-color: white;
+    border-radius: 20px;
+    padding:0;
+    padding-left:21px;
 }
 
 .featured .btn-default{
@@ -127,18 +143,12 @@ body{
     opacity: 0.5;
     border-radius: 15px;
     padding:3px 3px;
+    display: inline-block;
 }
 .row{
     position:relative;
 }
 
-.panel-footer{
-    background-color: white;
-    opacity:0.5;
-    border-radius: 20px;
-    padding:0;
-    padding-left:21px;
-}
 #showfirst{
     margin-top: 25px;
 }

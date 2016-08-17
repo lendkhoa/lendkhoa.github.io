@@ -12,11 +12,21 @@
 
     <title> Khoa Le </title>
     <script>
-        $(function(){
-            $('#togglebutton').click(function(){
-                $("#intro").toggle(function(){
-                    $("#intro").animate({width:'auto', height:'auto', opacity: '1'}, 1000);
-                });
+        $(document).ready(function () {
+            $(".jumbotron").show();
+        });
+        $(function() {
+            $('a[href*="#"]:not([href="#"])').click(function() {
+                if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                    if (target.length) {
+                        $('html, body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
+                }
             });
         });
     </script>
@@ -56,75 +66,60 @@
 </div>
 
 <div class="container-fluid">
-
-    <div class="jumbotron">
+    <div class="jumbotron" id="front">
         <div class="container">
-
             <div class="featured">
                 <div class="row">
-                    <div class="col-md-9">
-                        <h3> Hello, my name is </h3>
+                    <h3> Hello, my name is </h3>
                         <h2 id="name">
                             Khoa Le
-                            <a href="mailto: khoadang.le@outlook.com"><img src="img/banneronly.png" class="poster" id="showfirst"></a>
+                            <!--<a href="mailto: khoadang.le@outlook.com"><img src="img/banneronly.png" class="poster" id="showfirst"></a>-->
                         </h2>
-                        <button class="btn btn-default" id="togglebutton"> me in the nutshell </button>
-                        <div id="intro">
-                            I am a fourth-year student completing a bachelor’s degree in software engineering.
-                            My whole life I have been passionate about learning new skills to expand my horizons
-                            and coming up with creative solutions to tackle all kinds of challenges. That is why
-                            I am motivated to pursue a career in software engineering.<br/>
-                            <br>
-                            I have immersed myself in a broad spectrum of technological practices ranging from
-                            various personal open-source projects to an internship with Influence and Co.,
-                            a dynamic and thriving content marketing agency. What I have learned not only
-                            deepens my understanding of the field I am studying but broadens the ways in which
-                            I could potentially use technologies to empower the end user. My vision is to create
-                            the kind of product that is as useful as accessible and personal.
-                            <br/>
-                            <br/>
-                            <br/>
-                            <a href="mailto: khoadang.le@outlook.com"><img src="img/banneronly.png" class="poster" id="hidefirst"></a>
-                        </div>
-                        <br/>
-                        <br/>
-                        <a href="projects.html" class="btn btn-default"> Check out some of my work</a>
-                        <br/>
-                        <br/>
-                        <br/>
-                    </div>
-                    <div class="col-md-3">
-                        <p id="timer">
-                            <iframe src="https://freesecure.timeanddate.com/countdown/i5bj4ti6/n4888/cf12/cm0/cu4/ct0/cs0/ca0/co1/cr0/ss0/cac000/cpcfff/pct/tcfff/fs100/szw320/szh135/tatReady%20for%20the%20world%20in%3A/tac4285f4/tpcfff/iso2017-05-10T00:00:00" allowTransparency="true" frameborder="0" width="207" height="49"></iframe>
-                        </p>
-                    </div>
+                    <p id="timer">
+                        <iframe src="https://freesecure.timeanddate.com/countdown/i5bj4ti6/n4888/cf12/cm0/cu4/ct0/cs0/ca0/co1/cr0/ss0/cac000/cpcfff/pct/tcfff/fs100/szw320/szh135/tatReady%20for%20the%20world%20in%3A/tac4285f4/tpcfff/iso2017-05-10T00:00:00" allowTransparency="true" frameborder="0" width="207" height="49"></iframe>
+                    </p>
+                    <br/>
+                    <a href="#intro" class="btn btn-default"> About me</a>
+                    <br/>
+                    <br/>
                 </div>
             </div>
         </div>
     </div>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <div class="panel-footer">
-        <p>
-            &#169; lendkhoa 2016
-            <a href="https://www.linkedin.com/in/khoa-le-1503028a?trk=nav_responsive_tab_profile_pic"><img src ="img/linkedIcon.png" height="55" width="85"/> </a>
-            <a href="https://github.com/lendkhoa"><img src="img/gihubicon.png" height="31" width="31"/></a>
-        </p>
+
+    <div class="about" id="intro">
+            I am a fourth-year student completing a bachelor’s degree in software engineering.
+            My whole life I have been passionate about learning new skills to expand my horizons
+            and coming up with creative solutions to tackle all kinds of challenges. That is why
+            I am motivated to pursue a career in software engineering.<br/>
+            <br>
+            I have immersed myself in a broad spectrum of technological practices ranging from
+            various personal open-source projects to an internship with Influence and Co.,
+            a dynamic and thriving content marketing agency. What I have learned not only
+            deepens my understanding of the field I am studying but broadens the ways in which
+            I could potentially use technologies to empower the end user. My vision is to create
+            the kind of product that is as useful as accessible and personal.
+            <br/>
+        <a href="#front"> Top </a>
+            <br/>
+            <br/>
+        <a href="projects.html" class="btn btn-default"> Check out some of my work </a>
+        <br/>
+        <br/>
+        <br/>
+        <div class="panel-footer">
+            <p>
+                &#169; lendkhoa 2016
+                <a href="https://www.linkedin.com/in/khoa-le-1503028a?trk=nav_responsive_tab_profile_pic"><img src ="img/linkedIcon.png" height="55" width="85"/> </a>
+                <a href="https://github.com/lendkhoa"><img src="img/gihubicon.png" height="31" width="31"/></a>
+            </p>
+        </div>
     </div>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/landingpage.js"></script>
-
 
 </body>
 </html>
