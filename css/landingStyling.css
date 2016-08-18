@@ -55,6 +55,7 @@ body{
     text-align: justify;
     font-family: 'Dosis', regular;
     font-size: 25px;
+    margin: 0;
     padding-left: 2%;
     padding-right: 2%;
 }
@@ -241,7 +242,7 @@ body{
         opacity: 0.8;
         color:  #4285F4;
         border-radius: 20px;
-        padding:7px 6px;
+        padding:5px 6px;
         margin: 20px;
     }
     .featured{
