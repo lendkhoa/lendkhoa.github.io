@@ -1,0 +1,9 @@
+site_name: Khoa Le
+theme:
+  name: material
+plugins:
+  - blog
+  - search
+nav:
+  - Blog:
+    - blog/index.md
